@@ -634,7 +634,6 @@ pub struct MarginOCOOrderResult {
     pub margin_buy_borrow_asset: Option<String>,
     pub is_isolated: Option<bool>,
     pub orders: Vec<OCOOrderDetail>,
-    pub order_reports: Vec<OCOOrderReport>,
 }
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
