@@ -704,7 +704,7 @@ pub struct MarginOrdersQuery {
     pub symbol: String,
     /// "TRUE" or "FALSE", default is "FALSE"
     pub is_isolated: Option<String>,
-    pub order_id: u64,
+    pub order_id: Option<u64>,
     pub start_time: Option<u64>,
     pub end_time: Option<u64>,
     pub limit: Option<u8>,
