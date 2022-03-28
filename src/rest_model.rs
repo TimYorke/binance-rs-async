@@ -1053,7 +1053,7 @@ pub struct PriceIndex {
 pub struct MarginOrderQuery {
     pub symbol: String,
     pub is_isolated: Option<String>,
-    pub order_id: Option<String>,
+    pub order_id: Option<u64>,
     pub orig_client_order_id: Option<String>,
 }
 
