@@ -719,7 +719,7 @@ pub struct MarginOwnTradesQuery {
     pub from_id: Option<u64>,
     pub start_time: Option<u64>,
     pub end_time: Option<u64>,
-    pub limit: Option<u8>,
+    pub limit: Option<u16>,
 }
 
 /// archived and is_isolated are only applicable to certain endpoints
